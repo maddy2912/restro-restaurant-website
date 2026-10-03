@@ -22,7 +22,7 @@ import { faqs } from "../data/data"
                 <div className="space-y-3">
                     {faqs.map((faq, index)=>(
                         <Animated key={index} y={150} delay={index*0.15}>
-                            <detail className="border border-slate-200 text-zinc-500
+                            <details className="border border-slate-200 text-zinc-500
                             rounded-lg group">
                             <summary className="flex items-center justify-between p-4
                             cursor-pointer list-none hover:bg-slate-50/50 transition-colorss
@@ -38,7 +38,7 @@ import { faqs } from "../data/data"
                             <p className="px-5 pb-4 leading-relaxed">
                                 {faq.answer}
                             </p>
-                            </detail>
+                            </details>
 
                         </Animated>
 

@@ -10,7 +10,7 @@ const Timing = () => {
         items-center justify-center md:justify-start px-6 md:px-14 overflow-hidden mx-auto
         bg-[url('assets/restro-timing.png')]">
 
-            <div className='bg-white rounded-3xl p-8 w-full max-w-xs'>
+            <div className='bg-white rounded-3xl p-8 w-full max-w-xs self-center translate-y-6'>
                 <Animated delay={0.2}>
                     <h3 className='text-xl mb-8 font-medium'>Opening time</h3>
                 </Animated>
